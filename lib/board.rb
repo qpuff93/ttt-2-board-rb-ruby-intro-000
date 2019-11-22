@@ -1,4 +1,4 @@
-board =[`" "`,`" "`,`" "`,`" "`,`" "`,`" "`,`" "`,`" "`,`" "`]
+board =[" 0", " 1", "2 ", "3 ", " 4", " 5", " 6", "7 ", "8 "]
 # Position 1: Left
 board[0]
  # Position 2: Middle
@@ -17,5 +17,7 @@ board[6]
 board[7]
 # Position 9: Right
 board[8]
-# Position 10: Left
-board[9]
+
+# move X to postion 2, Middle
+board[1] = "X"
+board #=> [" ","X"," "]
